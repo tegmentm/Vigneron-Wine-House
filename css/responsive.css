@@ -34,43 +34,43 @@ px      68    160    252    344    436    528    620    712    */
     width: 95%;
   }
   /*--
-    blog Start
+    services Start
 --*/
-  #blog .block {
+  #services .block {
     text-align: center;
   }
-  #blog .block ul {
+  #services .block ul {
     padding-bottom: 40px;
   }
-  #blog .block ul li {
+  #services .block ul li {
     width: 100%;
   }
-  #blog .block ul li h3 {
+  #services .block ul li h3 {
     padding: 0px 0px 30px;
   }
-  #blog .block ul li .blog-img {
+  #services .block ul li .services-img {
     width: 50%;
   }
-  #blog .block ul li .blog-img img {
+  #services .block ul li .services-img img {
     width: 100%;
   }
-  #blog .block ul li .blog-img-2 {
+  #services .block ul li .services-img-2 {
     width: 50%;
   }
-  #blog .block ul li .blog-img-2 img {
+  #services .block ul li .services-img-2 img {
     width: 100%;
   }
-  #blog .block ul li .content-left {
+  #services .block ul li .content-left {
     padding: 40px 20px 0;
   }
-  #blog .block ul li .content-right {
+  #services .block ul li .content-right {
     padding: 40px 20px 0;
   }
-  #blog .block .btn-more-info {
+  #services .block .btn-more-info {
     float: none;
     margin-top: 30px;
   }
-  #blog .block .btn-more-info:hover {
+  #services .block .btn-more-info:hover {
     border-radius: 10px;
   }
   /*--
@@ -221,52 +221,52 @@ px      68    160    252    */
     font-size: 25px;
   }
   /*--
-    blog Start
+    services Start
 --*/
-  #blog .block ul {
+  #services .block ul {
     padding-bottom: 30px;
   }
-  #blog .block ul li {
+  #services .block ul li {
     float: none;
     width: 100%;
     height: 100%;
   }
-  #blog .block ul li .blog-img {
+  #services .block ul li .services-img {
     float: none;
     width: 100%;
   }
-  #blog .block ul li .blog-img img {
+  #services .block ul li .services-img img {
     width: 100%;
   }
-  #blog .block ul li .blog-img-2 {
+  #services .block ul li .services-img-2 {
     float: none;
     width: 100%;
   }
-  #blog .block ul li .blog-img-2 img {
+  #services .block ul li .services-img-2 img {
     width: 100%;
   }
-  #blog .block ul li .content-right {
-    float: none;
-    width: 100%;
-    padding: 20px 35px;
-  }
-  #blog .block ul li .content-right:after {
-    display: none;
-  }
-  #blog .block ul li .content-left {
+  #services .block ul li .content-right {
     float: none;
     width: 100%;
     padding: 20px 35px;
   }
-  #blog .block ul li .content-left:after {
+  #services .block ul li .content-right:after {
     display: none;
   }
-  #blog .block .btn-more-info {
+  #services .block ul li .content-left {
+    float: none;
+    width: 100%;
+    padding: 20px 35px;
+  }
+  #services .block ul li .content-left:after {
+    display: none;
+  }
+  #services .block .btn-more-info {
     float: none;
     margin-top: 30px;
     padding: 28px 85px;
   }
-  #blog .block .btn-more-info:hover {
+  #services .block .btn-more-info:hover {
     border-radius: 10px;
   }
   /*--

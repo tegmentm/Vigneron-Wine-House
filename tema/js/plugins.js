@@ -1541,7 +1541,7 @@ if (typeof Object.create !== "function") {
 
 // jQuery ScrollTo
 /**
- * Copyright (c) 2007-2012 Ariel Flesler - aflesler(at)gmail(dot)com | http://flesler.blogspot.com
+ * Copyright (c) 2007-2012 Ariel Flesler - aflesler(at)gmail(dot)com | http://flesler.servicesspot.com
  * Dual licensed under MIT and GPL.
  * @author Ariel Flesler
  * @version 1.4.3
