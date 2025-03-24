@@ -367,6 +367,47 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     color: #AA9D84;
 }
 
+
+
+
+
+
+
+
+
+
+#slider .block .owl-carousel {
+    max-width: 100%; /* Carousel container'ın genişliğini sınırla */
+    overflow: hidden; /* Taşan kısımları gizle */
+    margin: 0 auto; /* Carousel'i ortala */
+}
+
+#slider .block .owl-carousel img {
+    max-width: 100% !important; /* Görüntülerin genişliğini sınırla */
+    height: 240px; /* Yüksekliği sabit olarak ayarla */
+    object-fit: cover; /* Görüntülerin oranlarını korurken, belirlenen alanı kaplar */
+    border-radius: 2px; /* İsteğe bağlı: Köşeleri yuvarlak yapar */
+}
+
+@media (max-width: 768px) {
+    #slider .block .owl-carousel img {
+        max-width: 100%; /* Mobil cihazlarda görüntülerin genişliğini sınırla */
+        height: 240px; /* Yüksekliği otomatik olarak ayarla */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*--
     about-us Start
 --*/

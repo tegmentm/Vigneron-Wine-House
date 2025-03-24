@@ -100,7 +100,7 @@
 								<div>
 									<img
 										class="img-responsive"
-										src="images/slider/2023-06-12.jpg"
+										src="images/slider/vigneron-wine-house-00.jpg"
 										alt=""
 										data-bs-toggle="modal"
 										data-bs-target="#imageModal"
@@ -109,7 +109,7 @@
 								<div>
 									<img
 										class="img-responsive"
-										src="images/slider/slider-img-2.jpg"
+										src="images/slider/vigneron-wine-house-01.jpg"
 										alt=""
 										data-bs-toggle="modal"
 										data-bs-target="#imageModal"
@@ -118,7 +118,7 @@
 								<div>
 									<img
 										class="img-responsive"
-										src="images/slider/slider-img-3.jpg"
+										src="images/slider/vigneron-wine-house-02.jpg"
 										alt=""
 										data-bs-toggle="modal"
 										data-bs-target="#imageModal"
@@ -127,7 +127,16 @@
 								<div>
 									<img
 										class="img-responsive"
-										src="images/slider/slider-img-4.jpg"
+										src="images/slider/vigneron-wine-house-03.jpg"
+										alt=""
+										data-bs-toggle="modal"
+										data-bs-target="#imageModal"
+										onclick="openModal(this.src)" />
+								</div>
+								<div>
+									<img
+										class="img-responsive"
+										src="images/slider/vigneron-wine-house-04.jpg"
 										alt=""
 										data-bs-toggle="modal"
 										data-bs-target="#imageModal"
@@ -136,7 +145,7 @@
 								<div>
 									<img
 										class="img-responsive"
-										src="images/slider/slider-img-1.jpg"
+										src="images/slider/vigneron-wine-house-08.jpg"
 										alt=""
 										data-bs-toggle="modal"
 										data-bs-target="#imageModal"
@@ -145,7 +154,7 @@
 								<div>
 									<img
 										class="img-responsive"
-										src="images/slider/slider-img-2.jpg"
+										src="images/slider/vigneron-wine-house-09.jpg"
 										alt=""
 										data-bs-toggle="modal"
 										data-bs-target="#imageModal"
@@ -154,7 +163,7 @@
 								<div>
 									<img
 										class="img-responsive"
-										src="images/slider/slider-img-3.jpg"
+										src="images/slider/vigneron-wine-house-10.jpg"
 										alt=""
 										data-bs-toggle="modal"
 										data-bs-target="#imageModal"
@@ -163,7 +172,25 @@
 								<div>
 									<img
 										class="img-responsive"
-										src="images/slider/slider-img-4.jpg"
+										src="images/slider/vigneron-wine-house-12.jpg"
+										alt=""
+										data-bs-toggle="modal"
+										data-bs-target="#imageModal"
+										onclick="openModal(this.src)" />
+								</div>
+								<div>
+									<img
+										class="img-responsive"
+										src="images/slider/vigneron-wine-house-13.jpg"
+										alt=""
+										data-bs-toggle="modal"
+										data-bs-target="#imageModal"
+										onclick="openModal(this.src)" />
+								</div>
+								<div>
+									<img
+										class="img-responsive"
+										src="images/slider/vigneron-wine-house-14.jpg"
 										alt=""
 										data-bs-toggle="modal"
 										data-bs-target="#imageModal"
@@ -414,6 +441,34 @@
 			function openModal(imageSrc) {
 				document.getElementById("modalImage").src = imageSrc;
 			}
+		</script>
+		
+		
+		<script>
+		    $(document).ready(function() {
+		        $("#owl-example").owlCarousel({
+		           // items: 4,
+		            loop: true,
+		            margin: 5, // Resimler arasındaki boşluğu azalt
+		            stagePadding: 5,
+		            autoplay: true,
+		            autoplayTimeout: 3000,
+		            responsive: {
+		                0: {
+		                    items: 1,
+		                    margin: 2, // Mobil cihazlarda boşluk daha az
+		                },
+		                768: {
+		                    items: 2,
+		                    margin: 5,
+		                },
+		                992: {
+		                    items: 3,
+		                    margin: 5,
+		                },
+		            },
+		        });
+		    });
 		</script>
 	</body>
 </html>
