@@ -100,6 +100,7 @@ h3 {
 }
 
 p {
+    font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     margin: 0px;
@@ -764,7 +765,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 }
 
 #footer .block h3 {
-    color: var(--lightgray-color);
+    color: #2E2E2E;
     padding-bottom: 25px;
 }
 
@@ -798,6 +799,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer .block .info ul li h4 i,
 #footer .block .gallary ul li h4 i {
     color: #555;
+    margin-right: 30px;
     font-size: 20px;
 }
 
@@ -812,7 +814,8 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer .block .services ul li p,
 #footer .block .info ul li p,
 #footer .block .gallary ul li p {
-    color: var(--lightgray-color);
+    color: #474747;
+    font-size: 14px;
 }
 
 #footer .block .social-media-link h3 {
