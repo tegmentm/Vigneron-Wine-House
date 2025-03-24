@@ -228,7 +228,7 @@ a:active {
     nav Start
 --*/
 nav {
-    z-index: 999;
+    z-index: 99999;
     width: 100%;
 }
 
