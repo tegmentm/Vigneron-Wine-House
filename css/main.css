@@ -389,82 +389,6 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 /*--
     services Start
 --*/
-
-
-
-
-
-
-
-
-
-#services .block ul li {
-    display: flex; /* Flexbox kullanarak düzeni esnek hale getir */
-    flex-direction: row; /* İçerikleri yatay olarak sırala */
-    align-items: center; /* İçerikleri dikeyde ortala */
-    width: 100%; /* Genişliği tam olarak kullan */
-    background: #fff;
-    text-align: center;
-    color: #959595;
-    transition: 1s;
-}
-
-#services .block ul li .services-img,
-#services .block ul li .services-img-2 {
-    flex: 1; /* Görüntülerin genişliğini esnek hale getir */
-    overflow: hidden;
-}
-
-#services .block ul li .services-img img,
-#services .block ul li .services-img-2 img {
-    width: 100%; /* Görüntülerin genişliğini tam olarak kullan */
-    height: auto; /* Yüksekliği otomatik olarak ayarla */
-    transition: all 0.8s ease-out;
-}
-
-#services .block ul li .content-right,
-#services .block ul li .content-left {
-    flex: 1; /* İçeriklerin genişliğini esnek hale getir */
-    position: relative;
-    z-index: 999;
-}
-
-#services .block ul li .content-right:after,
-#services .block ul li .content-left:after {
-    content: "";
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    transform: rotate(45deg);
-}
-
-#services .block ul li .content-right:after {
-    left: -15px;
-    top: 50%;
-    margin-top: -15px;
-}
-
-#services .block ul li .content-left:after {
-    right: -15px;
-    top: 50%;
-    margin-top: 0px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #services {
     padding-top: 75px;
     padding-bottom: 100px;
@@ -496,8 +420,6 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     padding-top: 40px;
 }
 
-
-
 #services .block ul li {
     overflow: hidden;
     width: 50%;
@@ -514,6 +436,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 
 #services .block ul li h3 {
     color: #323232;
+    padding: 0px 40px 20px;
     line-height: 26px;
     position: relative;
 }
@@ -529,7 +452,17 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     margin-left: -45px;
 }
 
+#services .block ul li p {
+    padding-top: 25px;
+}
 
+#services .block ul li .services-img {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: var(--color-bg-default);
+    overflow: hidden;
+}
 
 #services .block ul li .services-img img {
     -webkit-transition: all 0.8s ease-out;
@@ -537,7 +470,85 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     transition: all 0.8s ease-out;
 }
 
+#services .block ul li .services-img-2 {
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
 
+#services .block ul li .services-img-2 img {
+    -webkit-transition: all 0.8s ease-out;
+    -o-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+    width: 100%;
+}
+
+#services .block ul li .content-right {
+    padding: 40px 35px 23px;
+    font-size: 16px;
+    line-height: 26px;
+    float: right;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+#services .block ul li .content-right:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    background: #fff;
+    transform: rotate(45deg);
+    margin-left: -15px;
+}
+
+#services .block ul li .content-left {
+    padding: 40px 35px 23px;
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    z-index: 999;
+}
+
+#services .block ul li .content-left:after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    background: #fff;
+    transform: rotate(45deg);
+}
+
+#services .block .btn-more-info {
+    float: right;
+    padding: 28px 102.5px;
+    border-radius: 0px;
+    background: #ff530a;
+    color: #fff;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    -webkit-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+}
+
+#services .block .btn-more-info:hover {
+    background: transparent;
+    color: #ff530a;
+    border: 1px solid #ff530a;
+}
 
 /*--
     price Start
