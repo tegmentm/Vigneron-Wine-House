@@ -373,9 +373,6 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 
 
 
-
-
-
 #slider .block .owl-carousel {
     max-width: 100%; /* Carousel container'ın genişliğini sınırla */
     overflow: hidden; /* Taşan kısımları gizle */
@@ -395,14 +392,6 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
         height: 240px; /* Yüksekliği otomatik olarak ayarla */
     }
 }
-
-
-
-
-
-
-
-
 
 
 
