@@ -311,7 +311,7 @@
 					</div><!-- .col-md-12 close -->
 					<div class="col-md-8">
 						<div class="block wow fadeInLeft" data-wow-delay="200ms">
-							<div class="info">
+							<div class="info p-3">
 								<ul>
 									<li>
 										<h4><i class="fa fa-phone me-2"></i>Telefon</h4>
@@ -327,7 +327,7 @@
 					</div>
 					
 					<!-- .col-md-4 close -->
-					<div class="col-md-4">
+					<!--<div class="col-md-4">
 						<div class="block wow fadeInLeft" data-wow-delay="1100ms">
 							
 							<div class="social-media-link">
@@ -356,7 +356,7 @@
 								</ul>
 							</div>
 						</div>
-					</div>
+					</div>-->
 					<!-- .col-md-4 close -->
 				</div>
 				<!-- .row close -->
@@ -429,6 +429,35 @@
 		            },
 		        });
 		    });
+		</script>
+		
+		<script>
+		    // Mobil cihazlarda modal'ı DOM'dan kaldır
+		    function openModal(imageSrc) {
+		        // Ekran genişliği ve Bootstrap'in breakpoint kontrolü
+		        if (window.innerWidth >= 768) { // veya Bootstrap'in md breakpoint'i (768px)
+		            const modalImage = document.getElementById("modalImage");
+		            modalImage.src = imageSrc;
+		            const modal = new bootstrap.Modal(document.getElementById('imageModal'));
+		            modal.show();
+		        } /*else {
+		            // Mobilde alternatif işlem (örneğin resmi yeni sekmede aç)
+		            window.open(imageSrc, '_blank');
+		        }*/
+		    }
+
+		    // Sayfa yüklendiğinde ve boyut değiştiğinde modal'ı devre dışı bırak
+		    function handleModalForMobile() {
+		        const modalElement = document.getElementById('imageModal');
+		        if (window.innerWidth < 768) {
+		            // Mobilde modal'ı DOM'dan tamamen kaldır (en kesin çözüm)
+		            if (modalElement) modalElement.remove();
+		        }
+		    }
+
+		    // Sayfa yüklendiğinde ve boyut değiştiğinde çalıştır
+		    window.addEventListener('load', handleModalForMobile);
+		    window.addEventListener('resize', handleModalForMobile);
 		</script>
 	</body>
 </html>
