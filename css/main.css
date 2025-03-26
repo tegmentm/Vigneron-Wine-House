@@ -845,7 +845,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #footer .block .services ul li p,
 #footer .block .info ul li p,
 #footer .block .gallary ul li p {
-    color: #474747;
+    color: var(--lightgray-color);
     font-size: 14px;
 }
 
