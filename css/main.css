@@ -499,6 +499,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
     -webkit-transition: all 0.8s ease-out;
     -o-transition: all 0.8s ease-out;
     transition: all 0.8s ease-out;
+    width: 100%;
 }
 
 #services .block ul li .services-img-2 {
